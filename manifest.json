@@ -1,0 +1,47 @@
+{
+    "manifest_version": 2,
+    "name": "Aurora Guard",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "https://www.ebay.com/*",
+      "https://www.dafiti.cl/*",
+      "https://www.latercera.com/*",
+      "https://cinepolischile.cl/*",
+      "https://consulta.servel.cl/*",
+      "https://www.t-mobile.com/commerce/cell-phone-plans/*",
+      "https://tiendacitrola.com/*",
+      "https://www.lapolar.cl/*",
+      "https://www.mercadolibre.cl/*",
+      "https://www.paris.cl/*",
+      "https://www.spotify.com/cl/account/manage-your-plan/*",
+      "https://www.jumbo.cl/*",
+      "https://www.sokobox.cl/*",
+      "https://cl.shein.com/*",
+      "https://www.google.cl/*",
+      "https://www.skechers.cl/*",
+      "https://www.pedidosya.cl/*",
+      "https://coaniquem.cl/es/*",
+      "https://www.rappi.cl/*",
+      "https://www.spotify.com/cl/premium/*"  
+
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "robot.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.spotify.com/cl/premium/*", "https://www.sokobox.cl/*", "https://www.jumbo.cl/*", "https://www.mercadolibre.cl/*", "https://www.paris.cl/*", "https://www.dafiti.cl/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
