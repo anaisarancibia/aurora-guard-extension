@@ -4,3 +4,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     }
   });
   
+chrome.runtime.onStartup.addListener(() => {
+  chrome.storage.local.remove('alertShown');
+});

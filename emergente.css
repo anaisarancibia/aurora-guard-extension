@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.aurora-guard-container {
+    background-color: #0D2149;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.sitio h4 {
+    background-color: #BCADE1;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fbfbfb;
+    font-family: "Raleway", sans-serif;
+    border: 2px solid #fbfbfb;
+    border-radius: 14.4px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-enlace {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.boton-enlace:hover {
+    text-decoration: underline;
+}

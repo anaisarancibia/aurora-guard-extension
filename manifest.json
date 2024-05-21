@@ -35,7 +35,7 @@
       "default_popup": "popup.html"
     },
     "icons": {
-        "128": "robot.png"
+        "128": "Isotipo.png"
     },
     "content_scripts": [
       {
